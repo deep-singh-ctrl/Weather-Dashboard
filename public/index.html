@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Weather Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>🌤️ Weather Dashboard</h1>
+
+    <div class="search">
+      <input id="cityInput" type="text" placeholder="Enter city (e.g., Delhi)" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <ul id="suggestions" class="suggestions"></ul>
+
+    <section id="result" class="result muted">Try typing a city name…</section>
+
+    <footer class="muted small">Powered by SQLite (cities) + Open-Meteo (weather)</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
